@@ -2,7 +2,7 @@ def fibonacciSuma(numero):
     fib_secuencia=[0,1]
     while len(fib_secuencia)<numero:
         fib_secuencia.append(fib_secuencia[-1]+fib_secuencia[-2])
-        return fib_secuencia[:numero]
+        return sum(fib_secuencia)
     
 
 
